@@ -6,7 +6,7 @@
 - 1 needs to be used (and only 1) !!!
 
 | name | description | used in | color |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | story |  | home, code, project,ays,doc | todo |
 | task |  | home, code, project,ays,doc | todo |
 | ticket | type | home, project | todo |
@@ -21,7 +21,7 @@
 - 1 needs to be used (and only 1) !!!
 
 | name | description | used in | color |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | critical |  | home, project,ays,doc | todo |
 | urgent |  | home, code, project,ays,doc | todo |
 | normal |  | home, code, project,ays,doc | todo |
@@ -32,7 +32,7 @@
 - define 2 optional process related labels
 
 | name | description | used in | color |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | duplicate |  | home, project,ays,doc | todo |
 | wontfix |  | home, project,ays,doc | todo |
 
@@ -45,7 +45,7 @@
   - good filters should be used in waffle to represent a kanban well 
 
 | name | description | used in | color |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | new | new or issue in backlog | home, project,ays,doc | todo |
 | accepted | accepted in milestone & now tracked in kanban as to be done | home, project,ays,doc | todo |
 | question | needs input | home, project,ays,doc | todo |
