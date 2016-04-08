@@ -12,13 +12,20 @@ e.g. I as product owner for product X would like to see Y features to be impleme
 
 - well chosen name
 - clear description of what we want to achieve
-- priority ( is a label 
+- priority ( is a label : critical, urgent, normal, minor)
+- milestone (only 1, when does this story have to be delivered)
+- assignee: is the [story card owner](roles.md)
+- effort (in days)
+   - put as ```(effort:4)``` anywhere in body of story 
 - a clear set of requirements or link to another document which has the requirements (in same git)
 - a clear set of acceptance tests or link to another document which has these acceptance tests (in same git)
-- links to
+- links to are put as link to right url in the git repo
   - specs (in git)
   - prd if relevant (in git)
-  -  
+  - features or bugs which are related to it (milestone as used on specific repo)
+
+
+### stories can constantly be re-prioritized
 
 
 ![](http://agilemodeling.com/images/requirementsManagement.gif)
