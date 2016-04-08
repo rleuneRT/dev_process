@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-   * Agile Principles
+   * [Agile Principles](agileprinciples.md)
 * [The Ideas](Ideas.md)
    * [github integration](github_integration.md)
    * [bugs & feature request funnel](funnel.md)
