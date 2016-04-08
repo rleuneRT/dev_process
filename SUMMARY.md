@@ -10,5 +10,5 @@
    * [visualize](visualize.md)
    * [roles](roles.md)
    * [Meetings](meetings.md)
-   * labels
+   * [labels](labels.md)
 
