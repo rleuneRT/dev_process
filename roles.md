@@ -44,6 +44,7 @@
   - work with all story owners to make sure milestone will be achieved !!!
   - communicate to stakeholders when relevant
   - organize milestone meetings (see [Meetings](meetings.md))
+  - guarantees proper format of all stories owned by story owners (guarantees quality, priorities, communication around it, ...)
 
 
 
