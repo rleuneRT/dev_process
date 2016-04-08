@@ -11,5 +11,5 @@
    * [roles](roles.md)
    * [Meetings](meetings.md)
    * [labels](labels.md)
-   * planning
+   * [planning](planning.md)
 
