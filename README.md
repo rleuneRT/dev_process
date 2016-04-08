@@ -5,10 +5,10 @@ a set of conventions how a development process can work based on agile methodolo
 ## agile
 
 - we believe in agile development processes like Scrum & Kanban
-- we beleive the best process uses lots of ideas from both
+- we believe the best process uses lots of ideas from both
 
 
-## kanban as a nice addon to Scrum
+## kanban as a nice add-on to Scrum
 
 Kanban primarily follows four core principles (info from [link](https://www.scrumalliance.org/community/articles/2014/july/scrum-vs-kanban))
 
