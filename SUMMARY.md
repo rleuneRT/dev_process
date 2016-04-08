@@ -6,5 +6,5 @@
    * [bugs & feature request funnel](funnel.md)
    * [stories are the start of all](stories.md)
    * [visualize](visualize.md)
-   * roles
+   * [roles](roles.md)
 
