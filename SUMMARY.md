@@ -8,5 +8,5 @@
    * [stories are the start of all](stories.md)
    * [visualize](visualize.md)
    * [roles](roles.md)
-   * Meetings
+   * [Meetings](meetings.md)
 
