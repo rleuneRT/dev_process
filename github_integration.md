@@ -1,4 +1,4 @@
-## github integration
+, ## github integration
 
 - git/github is a most amazing tool to track changes and can be used in many more ways than people deem possible.
 - We suggest using github for
@@ -49,6 +49,26 @@ example: https://github.com/Incubaid/dev_process/issues
 
 ### different types of repo's (IMPORTANT)
 
+#### home repo
+
+- is a repo with as name ```home```
+- it is the main repo of an organization
+- it holds 
+  - starting point of documentation
+  - explains what other repo's are used & what their purpose is
+  - holds the stories (goes over multiple repo's)
+  - holds the tasks which are not related to 1 repo
+  - holds specifications which are not related to 1 repo
+  - holds info like product PRD, ... which are bigger than 1 repo
+- milestones
+  - defines a deadline for x nr of stories/tasks
+  - a story or task can only belong to 1 deadline
+- labels
+  - type related: story, question, task
+  - priority related: critical, urgent, normal, minor
+  - process related: duplicate , wontfix
+  - state related: new, accepted, inprogress, fixed, closed
+   
 #### product code related
 
 - no special convention today, can be any name but NOT starting with the prefixes as described in next sections
@@ -59,16 +79,54 @@ example: https://github.com/Incubaid/dev_process/issues
   - type related: bug, feature, question, task
   - priority related: urgent, normal, minor
   - process related: duplicate , wontfix
-  - state related: 
+  - state related: new, accepted, inprogress, fixed, closed
 
 #### project related
 
-- proj_$customer_$projname
+- ```proj_$customer_$projname```
   - projects relate to customers
   - we use this to organize our work related to 1 customer project, only useful if customer project is large enough
-  - issues are used as tickets
--   
+  - issues are used as tickets, monitoring issues, stories or tasks
+- milestones
+  - defines a deadline for the project, there can be multiple but tasks or stories can only belong to one
+- labels
+  - type related: ticket, monitor, story, task, issue
+  - priority related: critical, urgent, normal, minor
+  - process related: duplicate , wontfix
+  - state related: new, accepted, inprogress, fixed, closed
 
+#### ays related (At Your Service)
+
+- at your service is a concept of managing IT infrastructure from out of GIT
+  - it documents a full it env
+  - it has all required process information embedded in ays
+  - all changes are strictly controlled by git & pull requests 
+- an AYS repo starts with ays_ ...
+  - ```ays_$customer_$envname``` e.g. ays_gig_gentTest1
+- milestones
+  - defines a deadline for the environment, there can be multiple but tasks or stories can only belong to one milestone
+- labels
+  - type related: ticket, monitor, story, task, issue
+  - priority related: critical, urgent, normal, minor
+  - process related: duplicate , wontfix
+  - state related: new, accepted, inprogress, fixed, closed
+
+
+#### documentation/gitbook
+
+- ```doc_$name```
+- milestones
+  - defines a deadline for the documentation/book 
+- IMPORTANT
+  - often it makes more sense to leave the documenation inside the product/code repo
+  - when put in code repo put under subdir /doc
+  - advantage to keep it in a code repo is that documentation is lined to the code
+  - the only reason to put it in a separate repo is when the doc is not related to code or related to more than 1 code repo  
+- labels
+  - type related: ticket, monitor, story, task, issue
+  - priority related: critical, urgent, normal, minor
+  - process related: duplicate , wontfix
+  - state related: new, accepted, inprogress, fixed, closed
 
 ### terminology git related
 
