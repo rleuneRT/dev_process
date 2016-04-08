@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-   * [Agile Principles](agileprinciples.md)
    * [Terminology](terminology.md)
+   * [Agile Principles](agileprinciples.md)
    * [kanban_option](kanbanoption.md)
 * [The Ideas](Ideas.md)
    * [github integration](github_integration.md)
