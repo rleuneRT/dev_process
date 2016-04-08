@@ -1,4 +1,4 @@
-, ## github integration
+## github integration
 
 - git/github is a most amazing tool to track changes and can be used in many more ways than people deem possible.
 - We suggest using github for
