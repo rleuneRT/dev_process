@@ -43,6 +43,32 @@ https://github.com/Incubaid/dev_process is an example repository.
 
 Issues are suggested improvements, tasks or questions related to the repository. Issues can be created by anyone (for public repositories), and are moderated by repository collaborators. Each issue contains its own discussion forum, can be labeled and assigned to a user.
 
+example: https://github.com/Incubaid/dev_process/issues
+
+### how to use github (or any other git mgmt system)
+
+### different types of repo's (IMPORTANT)
+
+#### product code related
+
+- no special convention today, can be any name but NOT starting with the prefixes as described in next sections
+- this is where the main code of products live
+- milestones
+  - defines sets of bugs, features or questions which need to be delivered in a certain time interval (a deadline)
+- labels
+  - type related: bug, feature, question, task
+  - priority related: urgent, normal, minor
+  - process related: duplicate , wontfix
+  - state related: 
+
+#### project related
+
+- proj_$customer_$projname
+  - projects relate to customers
+  - we use this to organize our work related to 1 customer project, only useful if customer project is large enough
+  - issues are used as tickets
+-   
+
 
 ### terminology git related
 
