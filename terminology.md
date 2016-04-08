@@ -10,8 +10,6 @@
 
 - see [teams](teams.md)
 
-#### ???
-
 ### github or other git mgmt system
 
 #### Organizations
