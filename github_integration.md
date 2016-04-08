@@ -189,5 +189,5 @@ When talking about a branch or a fork, the primary branch on the original reposi
 
 The "blame" feature in Git describes the last modification to each line of a file, which generally displays the revision, author and time. This is helpful, for example, in tracking down when a feature was added, or which commit led to a particular bug.
 
-### structure
+
 

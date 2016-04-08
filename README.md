@@ -4,7 +4,12 @@ The goal of this repo is to describe a set of conventions how a development proc
 These ideas are opinionated but do result out of years trying to create good products and still maintain flexibility.
 
 We invite everyone to contribute to this set of documents.
+
+* https://github.com/Incubaid/dev_process
+
 Please use the issue tracker to ask questions, post feedback, ask for improvements, report bugs, ...
+
+* https://github.com/Incubaid/dev_process/issues
 
 ## agile
 
