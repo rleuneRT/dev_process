@@ -1,24 +1,54 @@
 ## labels
 
+### type
+
+- to define type of issue
+- 1 needs to be used (and only 1) !!!
+
 | name | description | used in | color |
 | -- | -- | -- | -- |
-| 0:2 | 1:2 | 2:2 | 3:2 |
-| 0:3 | 1:3 | 2:3 | 3:3 |
-| 0:4 | 1:4 | 2:4 | 3:4 |
-| 0:5 | 1:5 | 2:5 | 3:5 |
-| 0:6 | 1:6 | 2:6 | 3:6 |
-| 0:7 | 1:7 | 2:7 | 3:7 |
-| 0:8 | 1:8 | 2:8 | 3:8 |
-| 0:9 | 1:9 | 2:9 | 3:9 |
-| 0:10 | 1:10 | 2:10 | 3:10 |
-| 0:11 | 1:11 | 2:11 | 3:11 |
-| 0:12 | 1:12 | 2:12 | 3:12 |
-| 0:13 | 1:13 | 2:13 | 3:13 |
-| 0:14 | 1:14 | 2:14 | 3:14 |
-| 0:15 | 1:15 | 2:15 | 3:15 |
-| 0:16 | 1:16 | 2:16 | 3:16 |
-| 0:17 | 1:17 | 2:17 | 3:17 |
-| 0:18 | 1:18 | 2:18 | 3:18 |
-| 0:19 | 1:19 | 2:19 | 3:19 |
-| 0:20 | 1:20 | 2:20 | 3:20 |
+| story |  | home, code, project,ays,doc | todo |
+| task |  | home, code, project,ays,doc | todo |
+| ticket | type | home, project | todo |
+| bug | issue reported by anyone | code,ays,doc | todo |
+| feature | improvement asked for by anyone | home, code, project,ays,doc | todo |
+| question | anyone wants to ask something | home, code, project,ays,doc | todo |
+| monitor | monitoring system found an issue | project,ays | todo |
 
+### priority
+
+- define priority in which issue needs to resolved
+- 1 needs to be used (and only 1) !!!
+
+| name | description | used in | color |
+| -- | -- | -- | -- |
+| critical |  | home, project,ays,doc | todo |
+| urgent |  | home, code, project,ays,doc | todo |
+| normal |  | home, code, project,ays,doc | todo |
+| minor |  | home, code, project,ays,doc | todo |
+
+### process 
+
+- define 2 optional process related labels
+
+| name | description | used in | color |
+| -- | -- | -- | -- |
+| duplicate |  | home, project,ays,doc | todo |
+| wontfix |  | home, project,ays,doc | todo |
+
+### state
+
+- define state of issue in the kanban flow
+- 1 needs to be used (and only 1) !!!
+- REMARK
+  - these states need to be useful over all projects e.g. over customer projects, code projects, stories, ...
+  - good filters should be used in waffle to represent a kanban well 
+
+| name | description | used in | color |
+| -- | -- | -- | -- |
+| new | new or issue in backlog | home, project,ays,doc | todo |
+| accepted | accepted in milestone & now tracked in kanban as to be done | home, project,ays,doc | todo |
+| question | needs input | home, project,ays,doc | todo |
+| inprogress | people are working on it | home, project,ays,doc | todo |
+| verification | testing, verification with customer | home, project,ays,doc | todo |
+| closed | nothing to do, 100% done | home, project,ays,doc | todo |
