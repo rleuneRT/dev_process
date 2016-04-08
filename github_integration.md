@@ -43,8 +43,8 @@
   - type related: story, question, task
   - priority related: critical, urgent, normal, minor
   - process related: duplicate , wontfix
-  - state related: new, accepted, inprogress, fixed, closed
-   
+  - state related: new, accepted,question, inprogress, verification, closed
+
 #### product code related
 
 - no special convention today, can be any name but NOT starting with the prefixes as described in next sections
@@ -55,7 +55,8 @@
   - type related: bug, feature, question, task
   - priority related: urgent, normal, minor
   - process related: duplicate , wontfix
-  - state related: new, accepted, inprogress, fixed, closed
+  - state related: new, accepted,question, inprogress, verification, closed
+
 
 #### project related
 
@@ -69,7 +70,7 @@
   - type related: ticket, monitor, story, task, issue
   - priority related: critical, urgent, normal, minor
   - process related: duplicate , wontfix
-  - state related: new, accepted, inprogress, fixed, closed
+  - state related: new, accepted,question, inprogress, verification, closed
 
 #### ays related (At Your Service)
 
@@ -85,7 +86,7 @@
   - type related: ticket, monitor, story, task, issue
   - priority related: critical, urgent, normal, minor
   - process related: duplicate , wontfix
-  - state related: new, accepted, inprogress, fixed, closed
+  - state related: new, accepted,question, inprogress, verification, closed
 
 
 #### documentation/gitbook
@@ -102,7 +103,8 @@
   - type related: ticket, monitor, story, task, issue
   - priority related: critical, urgent, normal, minor
   - process related: duplicate , wontfix
-  - state related: new, accepted, inprogress, fixed, closed
+  - state related: new, accepted,question, inprogress, verification, closed
+
 
 ### terminology git related
 
