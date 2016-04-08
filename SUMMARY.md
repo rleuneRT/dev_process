@@ -23,3 +23,4 @@
 	* [End User Involvement](agileprinciples/UserInvolved.md)
 	* [Testing Is Not For Dummies](agileprinciples/Testing.md)
 	* [No Place For Snipers](agileprinciples/Collaboration.md)
+* [more Info](moreinfo.md) 
