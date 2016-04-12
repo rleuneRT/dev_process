@@ -7,7 +7,7 @@
   - planning work (stories in home repo, see [stories](stories.md))
   - tracking of bugs
   - tracking of feature requests
-  - ofcourse all coding work using pull requests as tool to track changes
+  - of course all coding work using pull requests as tool to track changes
   - tickets from customers (*)
 - why
   - its important that all change is being tracked and people get visibility on everything which happened and is going to happen
