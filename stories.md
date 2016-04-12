@@ -2,12 +2,12 @@
 
 
 
-Stories help us to organize our work, they need to comply to certain requirements to be effective though.
+Stories help us to organize our work, they need to comply to certain requirements to be effective though.  
 ![](http://2.bp.blogspot.com/_H0iqHTCqRyo/R4zyNrT94KI/AAAAAAAAATo/VY8M-kc1MyU/s400/user+stories+-+agile+software+development+-+cards.jpg)
 
-### properties of a good story
+### Properties of a good story
 
-a story normally represents the view of a person,
+A story normally represents the view of a person,
 e.g. I as product owner for product X would like to see Y features to be implemented because ... e.g. customer Z needs this, or strategic, ...
 
 - well chosen name
