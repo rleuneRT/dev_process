@@ -1,8 +1,10 @@
 ## Coding Cycle
 
-### Step 1: story
 
-- story needs to be defined
+
+### Step 1: story 
+
+- story needs to be defined in milestone
 - first requirements done
 
 ### Step 2: branch

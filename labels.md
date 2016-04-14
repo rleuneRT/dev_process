@@ -7,15 +7,15 @@
 
 | name | description | used in | 
 | --- | --- | --- | --- |
-| story |  | home, milestone, project, infra | 
-| task |  |  home, milestone, project, infra |
+| story |  | home, milestone, project | 
+| task |  |  home, milestone, project |
 | ticket | type | project |
-| bug | issue reported by anyone | code,ays,doc,www,infra,cockpit |
-| feature | improvement asked for by anyone | code, project,ays,doc,www,infra,cockpit |
-| question | anyone wants to ask something | home, code, project,ays,doc,www,infra,cockpit | 
-| monitor | monitoring system found an issue | project,cockpit,www,infra |
+| bug | issue reported by anyone | code,ays,doc,www,cockpit |
+| feature | improvement asked for by anyone | code, project,ays,doc,www,cockpit |
+| question | anyone wants to ask something | home, code, project,ays,doc,www,cockpit, milestone | 
+| monitor | monitoring system found an issue | project,cockpit,www |
 | lead | lead for sales, can convert in business | project |
-| test | a test task | milestone,infra,cockpit |
+| test | a test task | milestone,cockpit |
 
 ### priority
 
