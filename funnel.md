@@ -12,7 +12,7 @@ OUT: STORIES
 - anyone can report bugs or feature requests
 - the [productowner](roles.md) will sort through the issues & give them priorities (use labels)
 - the bugs or FR's are grouped and planned to be executed (attached to milestones)
-- there can be lots of milestones in a code repo, these milestones are used to link X nr of bugs/FR's to a story in the home repo.
+- there can be lots of milestones in a code repo, these milestones are used to link X nr of bugs/FR's to a story in the milestone repo.
 
 
 ### DO NOT
