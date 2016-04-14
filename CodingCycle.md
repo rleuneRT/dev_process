@@ -9,9 +9,9 @@
 
 ### Step 2: branch
 
-- work on branch with as name the story card short name (WHICH NEEDS TO BE UNIQUE PER STORY CARD)
+- work on branch with as name the story card short name (WHICH NEEDS TO BE UNIQUE PER STORY CARD which is defined in milestone repo)
 - this can go over multiple repo's if have to
-- NEVER WORN ON MASTER !!!!!!!!
+- NEVER COMMIT ON MASTER !!!!!!!!
 
 ### Step 3: code
 
