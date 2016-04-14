@@ -1,7 +1,6 @@
 ## stories are start of all
 
 
-
 Stories help us to organize our work, they need to comply to certain requirements to be effective though.  
 ![](http://2.bp.blogspot.com/_H0iqHTCqRyo/R4zyNrT94KI/AAAAAAAAATo/VY8M-kc1MyU/s400/user+stories+-+agile+software+development+-+cards.jpg)
 

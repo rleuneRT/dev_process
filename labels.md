@@ -5,15 +5,17 @@
 - to define type of issue
 - 1 needs to be used (and only 1) !!!
 
-| name | description | used in | color |
+| name | description | used in | 
 | --- | --- | --- | --- |
-| story |  | home, code, project,ays,doc | todo |
-| task |  | home, code, project,ays,doc | todo |
-| ticket | type | home, project | todo |
-| bug | issue reported by anyone | code,ays,doc | todo |
-| feature | improvement asked for by anyone | home, code, project,ays,doc | todo |
-| question | anyone wants to ask something | home, code, project,ays,doc | todo |
-| monitor | monitoring system found an issue | project,ays | todo |
+| story |  | home, milestone, project, infra | 
+| task |  |  home, milestone, project, infra |
+| ticket | type | project |
+| bug | issue reported by anyone | code,ays,doc,www,infra,cockpit |
+| feature | improvement asked for by anyone | code, project,ays,doc,www,infra,cockpit |
+| question | anyone wants to ask something | home, code, project,ays,doc,www,infra,cockpit | 
+| monitor | monitoring system found an issue | project,cockpit,www,infra |
+| lead | lead for sales, can convert in business | project |
+| test | a test task | milestone,infra,cockpit |
 
 ### priority
 
