@@ -9,7 +9,7 @@ This section describes who in general we plan our work.
 - per company there is an organization (on github)
 - there is a home repo in which we can document generic specs, docs, ...
 - there is are X nr of milestone repo's
-    -in the milestone repo's we document the stories which need to be delivered for a certain deadline
+    - in the milestone repo's we document the stories which need to be delivered for a certain deadline
     - a milestone repo is the most imporant element for our planning, our full planning is based on milestones, they are typically not far out e.g. 2 weeks
     - in 1 milestone we deliver stories which are finished & fully tested
     - testplans are defined per milestone
