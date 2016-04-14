@@ -12,6 +12,8 @@
   - all product owners related to the story cards
 - when
   - anytime when company priorities or deadlines need to be discussed
+- the milestone repo will be used as main source of information
+- each milestone repo as a corresponding waffle.io kanboard representation 
 
 
 ### milestone meeting
@@ -64,7 +66,7 @@
   - story card holder
     - validates remaining effort in this meeting per story card
 - communication 
-  - telegram: ```agile_$companyshortname```
+  - telegram: ```milestone_$companyshortname_$name```
 
 
 

@@ -56,6 +56,7 @@
 - issue types used
   - story, question, task, test
 - milestone repo's are also used to group our test effort
+- each milestone repo as a corresponding waffle.io kanboard representation
 
 #### product code related
 
