@@ -36,10 +36,10 @@
 
 ### project
 
-- ```support_$shortcompanyname_$projname``` 
-    - e.g. ```project_gig_internalit```
-    - e.g. ```project_gig_mauritius```
-    - e.g. ```project_gig_funding```
+- `support_$shortcompanyname_$projname`
+    - e.g. `project_gig_internalit`
+    - e.g. `project_gig_mauritius`
+    - e.g. `project_gig_funding`
     - often the name used is the same as the name of the git repo
 - used for
     - communication around such a project
