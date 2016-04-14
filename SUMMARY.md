@@ -13,6 +13,7 @@
    * [Labels](labels.md)
    * [Planning](planning.md)
    * [Coding Cycle Important!](CodingCycle.md)
+   * [Telegram](telegram.md)
 * [Agile Principles](agileprinciples.md)
 	* [80% rule](agileprinciples/Pareto.md)
 	* [Change Is Not Bad](agileprinciples/ChangeIsNotBad.md)
