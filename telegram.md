@@ -22,7 +22,8 @@
 
 ### organization
 
-- ```support_$shortcompanyname``` 
+- ```org_$shortcompanyname_$name``` 
+- example groups
     - e.g. ```org_gig_marketing```
     - e.g. ```org_gig_products```
     - e.g. ```org_gig_sales```
