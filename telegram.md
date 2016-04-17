@@ -47,9 +47,17 @@
 
 ### project
 
+<<<<<<< HEAD
 - ```project_$shortcompanyname``` 
     - e.g. ```project_gig_mauritius```
     - normally the name used is the same as the name of the git repo
+=======
+- `support_$shortcompanyname_$projname`
+    - e.g. `project_gig_internalit`
+    - e.g. `project_gig_mauritius`
+    - e.g. `project_gig_funding`
+    - often the name used is the same as the name of the git repo
+>>>>>>> 9183cb9331b83941cca05f2d1a8d4a3d679a96ff
 - used for
     - communication around such a project
     - planning, info changes, ...
