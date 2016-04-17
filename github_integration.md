@@ -42,6 +42,7 @@
 - stories are only used in a home repo if they are not scheduled to a milestone yet (same remark for tasks)
     - in other words try NOT to put stories & tasks in this type of repo 
   
+<!--
 #### milestone repo
 
 - ```milestone_$name```
@@ -58,6 +59,8 @@
 - milestone repo's are also used to group our test effort
 - each milestone repo as a corresponding waffle.io kanboard representation
 
+-->
+
 #### product code related
 
 - no special convention today, can be any name but NOT starting with the prefixes as described in this doc
@@ -72,15 +75,32 @@
 - bug/feature management
     - all issues reported or feature requests are grouped, it acts like a funnel    
 
-#### project related
+#### organization related
 
-- ```proj_$customer_$projname```
-  - projects relate to customers
-  - we use this to organize our work related to 1 customer project, only useful if customer project is large enough
-  - issues can be leads, tickets, monitoring issues, stories, questions or tasks
+- ```org_$name``` e.g. marketing...
+- issues can be stories, leads, tickets, monitoring issues, stories, questions or tasks
 - milestones
   - defines a deadline for the project, there can be multiple but tasks or stories can only belong to one
   - freely chosen per project
+- suggested standard org repo's
+    - org_support (all support requests (tickets) which are not in project repo yet)
+    - org_internalit (internal IT related & organization of company)
+    - org_product (product management)
+    - org_marketing 
+    - org_finance
+    - org_legal
+    - org_hr 
+
+#### project related
+
+- ```proj_$customer``` or ```proj_$customer_$projname```
+  - projects relate to customers
+  - we use this to organize our work related to 1 customer, only useful if customer project is large enough
+  - issues can be stories, leads, tickets, monitoring issues, stories, questions or tasks
+- milestones
+  - defines a deadline for the project, there can be multiple but tasks or stories can only belong to one
+  - freely chosen per project
+- do not create specific ```proj_$customer_$projname``` unless if subproject is large enough
 
 
 
