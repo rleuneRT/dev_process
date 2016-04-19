@@ -90,3 +90,12 @@
     - people with right security clearance !!! can be partners & internal
 
 
+### code
+
+    - e.g. ```code_jumpscale_go-raml```
+    - normally the name used is the same as the name of the git repo
+- used for
+    - discussion around a code repository
+    - comments can also be given in pull request and such but sometimes a telegram disccusion is more usefull
+- who is on it
+    - everyone which is working on this repository 
