@@ -48,9 +48,8 @@
 
 | name | description | used in | 
 | --- | --- | --- | 
-| new | new or issue in backlog | all |
-| accepted | accepted in org & now tracked in kanban as to be done | all |
-| question | needs input | all |
+| new | new or issue in backlog (is no label, is the default)| all |
 | inprogress | people are working on it | all |
+| question | needs input | all |
 | verification | testing, verification with customer | all |
 | closed | nothing to do, 100% done | all |

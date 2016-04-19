@@ -35,33 +35,11 @@
   - holds specifications which are not related to 1 repo
   - holds info like product PRD, ... which are bigger than 1 repo
 - milestones
-  - defines a deadline for x nr of stories/tasks
-  - a story or task can only belong to 1 deadline
+  - not used 
 - issue types used
-  - story, question, task
-- stories are only used in a home repo if they are not scheduled to a milestone yet (same remark for tasks)
-    - in other words try NOT to put stories & tasks in this type of repo 
+  - not used
   
-<!--
-#### milestone repo
-
-- ```milestone_$name```
-- is a repo which starts with name ```milestone```
-- in our development process all effort is organized around milestones
-- a milestone holds X nr of stories which need to be finishined within that milestone.
-- this repo holds
-  - holds the stories as part of the milestone
-  - tasks as part of the stories
-  - specs/documentation specific to this milestone (NOT TO THE PRODUCT), so related to the process, specs & doc related to product belong in the home or code repo's
-  - test plans
-- issue types used
-  - story, question, task, test
-- milestone repo's are also used to group our test effort
-- each milestone repo as a corresponding waffle.io kanboard representation
-
--->
-
-#### product code related
+#### code related
 
 - no special convention today, can be any name but NOT starting with the prefixes as described in this doc
 - this is where the main code of products live
