@@ -61,6 +61,7 @@
   - defines a deadline for the project, there can be multiple but tasks or stories can only belong to one
   - freely chosen per project
 - suggested standard org repo's
+    - org_development (engineering)
     - org_support (all support requests (tickets) which are not in project repo yet)
     - org_internalit (internal IT related & organization of company)
     - org_product (product management)
