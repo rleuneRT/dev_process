@@ -29,39 +29,17 @@
 
 - is a repo with as name ```home```
 - it is the main repo of an organization
-- it holds 
+- it holds
   - starting point of documentation
   - explains what other repo's are used & what their purpose is
   - holds specifications which are not related to 1 repo
   - holds info like product PRD, ... which are bigger than 1 repo
 - milestones
-  - defines a deadline for x nr of stories/tasks
-  - a story or task can only belong to 1 deadline
+  - not used
 - issue types used
-  - story, question, task
-- stories are only used in a home repo if they are not scheduled to a milestone yet (same remark for tasks)
-    - in other words try NOT to put stories & tasks in this type of repo 
-  
-<!--
-#### milestone repo
+  - not used
 
-- ```milestone_$name```
-- is a repo which starts with name ```milestone```
-- in our development process all effort is organized around milestones
-- a milestone holds X nr of stories which need to be finishined within that milestone.
-- this repo holds
-  - holds the stories as part of the milestone
-  - tasks as part of the stories
-  - specs/documentation specific to this milestone (NOT TO THE PRODUCT), so related to the process, specs & doc related to product belong in the home or code repo's
-  - test plans
-- issue types used
-  - story, question, task, test
-- milestone repo's are also used to group our test effort
-- each milestone repo as a corresponding waffle.io kanboard representation
-
--->
-
-#### product code related
+#### code related
 
 - no special convention today, can be any name but NOT starting with the prefixes as described in this doc
 - this is where the main code of products live
@@ -71,7 +49,7 @@
 - issue types used
   - bug, feature, question
 - DO NOT
-    - use stories or tasks or tests at this level !!! 
+    - use stories or tasks or tests at this level !!!
 - bug/feature management
     - all issues reported or feature requests are grouped, it acts like a funnel    
 
@@ -86,10 +64,10 @@
     - org_support (all support requests (tickets) which are not in project repo yet)
     - org_internalit (internal IT related & organization of company)
     - org_product (product management)
-    - org_marketing 
+    - org_marketing
     - org_finance
     - org_legal
-    - org_hr 
+    - org_hr
 
 #### project related
 
@@ -131,7 +109,7 @@
 - is used to run an infrastructure from out of GIT
   - it documents a full it env
   - it has all required process information embedded in ays
-  - all changes are strictly controlled by git & pull requests 
+  - all changes are strictly controlled by git & pull requests
 - is the cockpit env which runs our management framework e.g.
     - ays robot
     - telegram robot
@@ -139,13 +117,13 @@
     - portal
 - is used to manage an environment on our G8 grid
 - ays repo's are inside
-    - there can be more than 1 ays repo hosted inside a cockpit repo 
+    - there can be more than 1 ays repo hosted inside a cockpit repo
         - hosts the ays recipes and ays instances which make up the env to be managed
-        - is a dir which has an empty file .ays inside 
+        - is a dir which has an empty file .ays inside
 - milestones
   - defines a deadline for the environment, freely to be chosen
 - issues can be of type
-    - story, task, bug, feature, question, monitor, test 
+    - story, task, bug, feature, question, monitor, test
 
 #### ays templates (At Your Service)
 
@@ -155,6 +133,21 @@
   - to group feature requests & bugs
 - issues can be of type
     - bug,feature,question
+
+#### Quality
+- A quality repo starts with quality_...
+  - ```quality_$projects_$testtype``` e.g. quality_openvcloud_testsuite
+
+- different test types
+  testsuite = used for automated tests running on a regular basis
+  performancetest = for tests which have to do with checking the boundaries of a system
+  portal = al tests related to the portal
+- Tests should be created based on input from the story card owners. When a new story card is made the testing team should be aware so that they can start thinking about creating a test case for the story. The quality team and development team should work side by side so that we can guarantee the highest quality level possible.
+- issues in the quality repo can be of types
+    - bug, enhancement, feature, AutomatedTest, ManualTest
+- Milestones in the test repositories should correspond to milestones used in the development process.
+- A Milestone can only be released when the complete quality test cycle is finished for that milestone.
+
 
 
 ### terminology git related
@@ -239,6 +232,3 @@ When talking about a branch or a fork, the primary branch on the original reposi
 #### Blame
 
 The "blame" feature in Git describes the last modification to each line of a file, which generally displays the revision, author and time. This is helpful, for example, in tracking down when a feature was added, or which commit led to a particular bug.
-
-
-
