@@ -6,7 +6,7 @@
 
 ### support
 
-- ```support_$shortcompanyname``` e.g. ```support_gig```
+- ```$shortcompanyname_support``` e.g. ```gig_support```
 - used for
     - any customer isue which deserves attention from more than 1 person
     - for escalations
@@ -48,7 +48,7 @@
 
 ### project
 
-    - e.g. ```project_gig_mauritius```
+    - e.g. ```gig_proj_mauritius```
     - normally the name used is the same as the name of the git repo
 - used for
     - communication around such a project
@@ -58,7 +58,7 @@
 
 ### milestone 
 
-- ```milestone_$shortcompanyname_$name``` e.g. ```milestone_gig_ovc210```
+- ```$shortcompanyname_milestone_$name``` e.g. ```gig_milestone_ovc210```
 - defines a milestone for the company an all main communication to do with this
 - used for
     - announcing meetings e.g. stakeholder meeting, story meeting if change in time, ...
@@ -75,7 +75,7 @@
 
 ### cockpit
 
-- ```cockpit_$shortcompanyname_$name```
+- ```$shortcompanyname_cockpit_$name```
 - in line with name of cockpit git repo
 - used for
     - all communication around 1 IT environment (can be for 1 customer or internal, ...)
