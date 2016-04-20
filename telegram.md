@@ -22,21 +22,21 @@
 
 ### organization
 
-- ```org_$shortcompanyname_$name``` 
+- ```$shortcompanyname_org_$name```
 - example groups
-    - e.g. ```org_gig_marketing```
-    - e.g. ```org_gig_products```
-    - e.g. ```org_gig_sales```
-    - e.g. ```org_gig_internalit```
-    - e.g. ```org_gig_development```
-    - e.g. ```org_gig_research```
-    - e.g. ```org_gig_proddelivery```  : e.g. hardware & shipments of projects
-    - e.g. ```org_gig_qa```         : quality assurance in broad sense
-    - e.g. ```org_gig_operations``` : team which keeps our systems up & running in broad sense
-    - e.g. ```org_gig_admin```
-    - e.g. ```org_gig_finance```
-    - e.g. ```org_gig_legal```
-    - e.g. ```org_gig_funding```
+    - e.g. ```gig_org_marketing```
+    - e.g. ```gig_org_products```
+    - e.g. ```gig_org_sales```
+    - e.g. ```gig_org_internalit```
+    - e.g. ```gig_org_development```
+    - e.g. ```gig_org_research```
+    - e.g. ```gig_org_proddelivery```  : e.g. hardware & shipments of projects
+    - e.g. ```gig_org_qa```         : quality assurance in broad sense
+    - e.g. ```gig_org_operations``` : team which keeps our systems up & running in broad sense
+    - e.g. ```gig_org_admin```
+    - e.g. ```gig_org_finance```
+    - e.g. ```gig_org_legal```
+    - e.g. ```gig_org_funding```
 
     - normally the name used is the same as the name of the git repo
 - used for
