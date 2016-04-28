@@ -221,3 +221,10 @@ The "blame" feature in Git describes the last modification to each line of a fil
 
 
 
+### Github magic comments
+We support some 'magic' comment that you can use in issue and help to manage story and tasks.
+
+`!! prio $prio` $prio is checked on first 4 letters, e.g. critical, or crit matches same  
+`!! p $prio` alias above
+
+`!! move gig-projects/home` move issue to this project, try to keep milestones, labels. if it's a story, move all the tasks related.
