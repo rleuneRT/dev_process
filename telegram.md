@@ -92,10 +92,18 @@
 
 ### code
 
-    - e.g. ```code_jumpscale_go-raml```
-    - normally the name used is the same as the name of the git repo
+- e.g. ```code_jumpscale_go-raml```
+- normally the name used is the same as the name of the git repo
 - used for
     - discussion around a code repository
     - comments can also be given in pull request and such but sometimes a telegram disccusion is more usefull
 - who is on it
     - everyone which is working on this repository 
+
+### BAM
+
+- e.g. gig_BAM
+- is used for communication around the BAM meeting
+- also used to report blocking issues, so that they can be assessed more quickly so that people do not need to wait for the next BAM meeting to be unblocked.
+- who is on it
+   - people related to QA & development
