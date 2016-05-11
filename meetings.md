@@ -66,7 +66,8 @@
   - story card holder
     - validates remaining effort in this meeting per story card
 - communication
-  - telegram: ```milestone_$companyshortname_$name```
+  - telegram: ```story_$companyshortname_$name```
+
 
 ### Bug Assessment Meeting (BAM)
 

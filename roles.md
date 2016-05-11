@@ -26,6 +26,8 @@
   - make sure that done means done !!! (see [Agile Principles](agileprinciples.md)) 
   - communicate to stakeholders about the card
   - organize story meetup: talk with people contributing to this story, follow progress
+  - define tasks that need to be delivered to deliver the story card
+  - write consize story reports after the daily story meeting including ETA and short description of what is going on. Publish the link to the comment in the $org_org_development groupchat on telegram
 
 ### scrumteam lead
 
@@ -45,6 +47,8 @@
   - communicate to stakeholders when relevant
   - organize milestone meetings (see [Meetings](meetings.md))
   - guarantees proper format of all stories owned by story owners (guarantees quality, priorities, communication around it, ...)
+
+
 
 
 
