@@ -4,16 +4,16 @@
 
 - at any point in time there are X milestone relevant for a company
 - all relevant milestone owners will be organizing this meeting
-  - there are very few milestone owners, normally only 1 per company 
+  - there are very few milestone owners, normally only 1 per company
 - who
   - all stakeholders who have something to loose or win by stories discussed on this meeting
   - all milestone owners
-  - all story owners 
+  - all story owners
   - all product owners related to the story cards
 - when
   - anytime when company priorities or deadlines need to be discussed
 - the milestone repo will be used as main source of information
-- each milestone repo as a corresponding waffle.io kanboard representation 
+- each milestone repo as a corresponding waffle.io kanboard representation
 
 
 ### milestone meeting
@@ -57,16 +57,27 @@
 - what used to be our scrum meetings, will be replaced by story meetings.
 - the story owner(s) organize meetings to discuss process
 - the following questions are answered
-  - per story card 
-  - each member: 
+  - per story card
+  - each member:
     - what did I do since last meeting
     - what am I planning to work on
     - what is blocking me
     - what is remaining effort from my side for completion of this full story card
   - story card holder
     - validates remaining effort in this meeting per story card
-- communication 
+- communication
   - telegram: ```milestone_$companyshortname_$name```
 
+### Bug Assessment Meeting (BAM)
 
-
+The BAM meeting is a meeting which is being done to have a clear overview on all open issues reported on GIT
+- goal of this meeting
+  - go over all the open issues, set priorities and attach issues to a certain milestone
+  - go over the issues of the milestone in progress and check progress
+- Members of the BAM meeting
+  - Quality lead
+  - Operations lead
+  - Develoment lead
+  - Milestone lead
+- communication
+  - telegram: ```gig_BAM```
