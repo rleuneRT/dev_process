@@ -69,6 +69,7 @@
     - org_finance
     - org_legal
     - org_hr 
+    - org_quality (all QA related issues and automation code, performance testing, portal testing and automated tests)
 
 #### project related
 
