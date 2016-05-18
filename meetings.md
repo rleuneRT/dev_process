@@ -81,4 +81,4 @@ The BAM meeting is a meeting which is being done to have a clear overview on all
   - Develoment lead
   - Milestone lead
 - communication
-  - telegram: ```gig_BAM```
+  - telegram: ```$companyshortname_BAM```
