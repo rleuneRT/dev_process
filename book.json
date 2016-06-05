@@ -8,7 +8,8 @@
         "googledocs",
         "highlight2",
         "github",
-        "include"
+        "include",
+        "include-codeblock"
     ],
     "pluginsConfig": {}
 }
