@@ -10,6 +10,41 @@
 
 ### plugins to gitbook
 
+book.json file
+
+```json
+{
+    "gitbook": ">=2.0.0",
+    "plugins": ["edit-link","googledocs","atoc","github","gitbookcode","chart","image-captions","mermaid2","highlight2","codeblock"],
+    "pluginsConfig": {
+            "edit-link": {
+                "base": "https://github.com/Incubaid/dev_process/edit/master/",
+                "label": "Edit This Page"
+            },
+    "googledocs": {
+            "rm": "minimal",
+            "frameborder": "0",
+            "width": "100%",
+            "height": "500px",
+            "noembed": "new window"
+        },
+     "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        },
+    "chart": {
+            "type": "highcharts"
+        },
+    "github": {
+            "url": "https://github.com/Incubaid/dev_process"
+        }
+    }
+}
+
+```
+
+is example file to be put in gitbook (in root of folder), enables next plugins.
+
 #### table of contents
 
 - [plugin](https://plugins.gitbook.com/plugin/atoc)
