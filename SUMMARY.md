@@ -29,6 +29,6 @@
    * [Testing Is Not For Dummies](agileprinciples/Testing.md)
    * [No Place For Snipers](agileprinciples/Collaboration.md)
 * [more Info](moreinfo.md)
-   * Tools
+   * [Tools](tools.md)
 * [FAQ](faq.md)
 
