@@ -28,5 +28,4 @@ OUT: STORIES
 - if you put $storycardname: at beginning of title of issue then this bug/fr will become a task underneath the story
 - this only works if $storycardname is unique (which has to be for active stories)
 - this is done by the incubaid development process tools
--  
 
