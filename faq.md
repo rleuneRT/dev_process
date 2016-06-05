@@ -16,6 +16,11 @@ The story can be the internal representation and ofcourse can still link to the 
 
 This is useful if you want to visualize your roadmap on your product account & keep stories internal.
 
+### customers wanna report a bug, how to do this?
+
+- If the customer (or someone from customer organization) is a contributor on the required repo, they can just file the bugs.
+- It the customer is more like an end customer being less involved we suggest to use a ticketing system. At Incubaid we have created some tools to be able to use our Github also as ticketing system but otherwise there are many of them. The support person in your organization can then create the bug report in the appropriate repo and link back from the ticketing system.
+
 
 
 
