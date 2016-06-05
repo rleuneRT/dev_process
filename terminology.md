@@ -6,9 +6,6 @@
 
 - see [roles](roles.md)
 
-#### teams
-
-- see [teams](teams.md)
 
 ### github or other git mgmt system
 
