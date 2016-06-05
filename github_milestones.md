@@ -14,7 +14,13 @@ We are still struggling how to best use milestones, all feedback very welcome.
 
 There are maximum 3 milestones per prodorg repo
 
-- 
+- version nr 1 (nearest to today)
+- version nr 2 (next release)
+- roadmap (always use this name !!!)
+
+- **bugs are NEVER but on roadmap**, following this page they are in version 1 or 2 after now.
+
+- FR can be put on roadmap when not in one of 2 next releases, but no specific timing yet
 
 DO NOT
 - use timing milestones e.g. may16
