@@ -12,6 +12,10 @@ We are still struggling how to best use milestones, all feedback very welcome.
 - stories can link back to a specific milestone & issues in a repo
   - its handy to use a query to show e.g. all bugs of e.g. jumpscale8 repo and then link this 1 query to a story card in the projorg
 
+There are maximum 3 milestones per prodorg repo
+
+- 
+
 DO NOT
 - use timing milestones e.g. may16
 
