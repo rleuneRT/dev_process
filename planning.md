@@ -50,11 +50,12 @@ This section describes how to plan work:
 - create all story cards relevant for 1 or more milestones
     - put the story cards in the right milestones !!! 
 - choose the story card owners wisely
+- use telegram ```$shortcompanyname_milestone_$name```
 
 #### step 3: stakeholder meeting (see [meetings doc](meetings.md))
 
 - call stakeholder meeting to discuss milestone(s)
-  - use telegram group: e.g. ```gig_org_development``` to announce
+- use telegram ```$shortcompanyname_milestone_$name```
 - when approved, announce over telegram
 - when not approved do more of these meetings, go back to step 2 when required
 
@@ -62,23 +63,24 @@ This section describes how to plan work:
 
 - present milestone & related story cards to everyone involved in the relevant organization
 - this is the official start of getting this milestone done
+- use telegram ```$shortcompanyname_milestone_$name```
 
 #### step 5: story group meetings (see [meetings doc](meetings.md))
 
 - the story owners organize meetings to discuss progress
 - happens every day, needs to be very short < 15 min
-- use telegram group: ```gig_org_development`` to coordinate
+- use telegram ```$shortcompanyname_milestone_$name```
 - use ```gig_story_$shortStoryName``` to communicate specifically about 1 story when this becomes relevant (is optional)
 
 #### step 6: demo meeting (see [meetings doc](meetings.md))
 
 - give demo's about what has been accomplished
-- use telegram group: ```gig_org_development``
+- use telegram ```$shortcompanyname_milestone_$name```
 
 #### step 7: milestone acceptance meeting (see [meetings doc](meetings.md))
 
 - discuss how the milestone went, learn for future
-- use telegram group: ```gig_org_development``
+- use telegram ```$shortcompanyname_milestone_$name```
 
 
 
