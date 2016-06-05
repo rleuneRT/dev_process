@@ -1,6 +1,6 @@
 ## Visualize
 
-- use https://waffle.io/ to visualize this agile methodology 
+- we suggest to use https://waffle.io/ to visualize this agile methodology 
 - this gives you a Kanban method on top of all your stories/bugs/fr's/tickets/...
 
 ### How to use Waffle

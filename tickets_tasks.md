@@ -22,17 +22,45 @@
     - only used on ```org_repo's``` or ```proj_repo's```     !!!
     - the tasks are linked to the subject for which the task is (not the proj where people belong too)
         - e.g. if our legal council needs to help on a contract in ```proj_mauritius``` as example then the task is in ```proj_mauritius``` NOT in ```org_legal```
-	- Task format:
-		- Title: ```Storycard name```: ```Task description ``` [```number of hours```(h)|```number of days```(d)]
-		   e.g.: rogerthat-oauth2: Android - New action type (oauth2://) for a button [6h]
-		- Description:
-			- **GOAL**:
-			   Clearly describe the goal what needs to be achieved when the task is delivered.
-			- **DESCRIPTION|REQUIREMENTS**:
-			   Add specifications, remarks, implementation hints, requirements
-			- **ESTIMATION**: [```number of hours```(h)|```number of days```(d)] (optional)
-		- [Example](https://github.com/gig-projects/org_development/issues/33)
+
+### Task format:
+
+#### Title: ```$storyname:$taskDescription [4h]```
+
+- time format is optional
+- can be in h or days e.g. 4h or 4d 
+- e.g.: ```storyx:cleanup the text for button something [1h]```
+- e.g.: ```storyx:complete the autotest nr ... [1d]```
+
 	
+### Body:
+
+
+```
+## GOAL:
+
+- Clearly describe the goal what needs to be achieved when the task is delivered.
+- often optional !!! and defined at story card level
+
+## DESCRIPTION
+
+- describe what task is about
+
+## REQUIREMENTS
+
+- Add specifications, remarks, implementation hints, requirements
+- this is often optional, and defined at story card level 
+
+**ESTIMATION**: [```number of hours```(h)|```number of days```(d)] 
+
+```
+
+- goal is optional, often they are put at story card level
+- requirements are optional, normally they are put at story card level
+- estimation is optional
+- a task is linked to 1 owner who is responsible for putting the hours right
+
+example: [link](https://github.com/Incubaid/dev_process/issues/20)
 
  
 
