@@ -1,11 +1,12 @@
 ## roles
 
-- these roles need to be documented in the home repo's
+- these roles need to be documented in the home repo's o
 - who owns what
 
 ### stakeholder
 
 - who has something to loose or win by the acceptance/progress on a story card
+- stakeholder main role is to be part of stakeholder meeting
 
 ### product owner
 
