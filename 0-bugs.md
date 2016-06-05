@@ -1,5 +1,7 @@
 ## 0-Bugs
 
+Principle how to sort through bugs and keep the process as light as possible.
+
 ### [Blog article from vmware Israel team](http://galzellermayer.blogspot.ae/2013/05/0-bugs-policy.html)
 
 **blog from development team at vmware Israel**
@@ -66,5 +68,10 @@ OK. So we have agreed that the 0 bugs policy is in fact GREAT!
 
 ### our conclusions
 
-Each product/code account has milestones defined.
-These are the same milestones as what we use 
+- Each product/code account has milestones defined = product versions
+- Per code repo there are normally not more than 3 milestones
+  - version nr 1 (nearest to today)
+  - version nr 2 (next release)
+  - roadmap (always use this name !!!)
+- **bugs are NEVER but on roadmap**, following this page they are in version 1 or 2 after now.
+- FR can be put on roadmap when not in one of 2 next releases, but no specific timing yet
