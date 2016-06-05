@@ -5,7 +5,7 @@
    * [Kanban](kanbanoption.md)
 * [The Ideas](Ideas.md)
    * [Github Intro](github_integration.md)
-   * [Github Accounts](github_accounts.md)
+   * [Github Organizations](github_accounts.md)
    * [Github Repos](repos.md)
    * [Github Milestones](github_milestones.md)
    * [Bugs & Feature request funnel](funnel.md)
