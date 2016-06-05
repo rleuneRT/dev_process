@@ -28,6 +28,7 @@
   - organize story meetup: talk with people contributing to this story, follow progress
   - define tasks that need to be delivered to deliver the story card
   - write consize story reports after the daily story meeting including ETA and short description of what is going on. Publish the link to the comment in the $org_org_development groupchat on telegram
+  - see also in story section in this ebook, you will find more info there.
 
 ### scrumteam lead
 
