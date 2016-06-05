@@ -59,5 +59,20 @@
 - communication 
   - telegram: ```story_$companyshortname_$name```
 
+### Bug Assessment Meeting (BAM)
+  		  
+ The BAM meeting is a meeting which is being done to have a clear overview on all open issues reported on GIT
+ 
+ - goal of this meeting
+   - go over all the open issues, set priorities and attach issues to a certain milestone
+   - go over the issues of the milestone in progress and check progress
+ - Members of the BAM meeting
+   - Quality lead
+   - Operations lead
+   - Develoment lead
+   - Milestone lead
+ - communication
+   - telegram: ```$companyshortname_BAM```
+
 
 
