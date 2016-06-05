@@ -1,33 +1,41 @@
 ## different types of repo's (IMPORTANT)
 ### repo's inside Product Organization (prodorg)
 
-#### home repo
+#### home repo for product organization repo's
 
 - is a repo with as name ```home```
 - it is the main repo of a prodorg
 - it holds 
-  - starting point of documentation
+  - starting point of documentation & people to find their way in a repo
   - explains what other repo's are used & what their purpose is
   - holds specifications which are not related to 1 repo
   - holds info like product PRD, ... which are bigger than 1 repo
 - milestones
-  - 
+  - are releases for a product, used to group work for coding/testing/...
 - issue types used
-  - not used
+  - FR 
+- this is the ideal repo to define your roadmap which goes over different product/component repo's
+
+DO NOT USE THIS REPO FOR
+
+- escalating bugs
+- story cards
   
 #### code related
 
 - no special convention today, can be any name but NOT starting with the prefixes as described in this doc
 - this is where the main code of products live
 - milestones
-  - freely to be chosen names per repo, they are used to group bugs or features
-  - these milestones are then linked to a specific story !!! to get them executed
-- issue types used
+  - are releases for a product, used to group work for- issue types used
+- types
   - bug, feature, question
 - DO NOT
     - use stories or tasks or tests at this level !!! 
 - bug/feature management
     - all issues reported or feature requests are grouped, it acts like a funnel    
+- how to easily make sure bugs/fr become tasks
+  - put unique story card name at beginning of title e.g. story1:...
+  - the incubaid development process tools will find the story and if found create a task for it and put this bug/fr in as task (in the task there will be link to this bug/fr) 
 
 
 #### documentation/gitbook
