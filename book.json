@@ -2,7 +2,7 @@
 
 {
     "gitbook": ">=2.0.0",
-    "plugins": ["edit-link","googledocs","mermaid"],
+    "plugins": ["edit-link","googledocs","mermaid","atoc"],
     "pluginsConfig": {
             "edit-link": {
                 "base": "https://github.com/Incubaid/dev_process/edit/master/",
@@ -14,6 +14,10 @@
             "width": "100%",
             "height": "500px",
             "noembed": "new window"
+        },
+     "atoc": {
+            "addClass": true,
+            "className": "atoc"
         }
     }
 }
