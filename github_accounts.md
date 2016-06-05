@@ -2,8 +2,6 @@
 
 ![](Screen Shot 2016-06-05 at 3.26.51 PM.png)
 
-In this doc we will give it a short name: ```gitorg```
-
 We define 2 types of organizations
 
 ### Product github organization (prodorg)
@@ -17,3 +15,4 @@ We define 2 types of organizations
 - github is an amazing tool to store all kinds of processes
 - as you can see in the section about repo's we use this for a lot of purposes.
 - THERE IS NO CODE IN PROJORG
+
