@@ -2,7 +2,7 @@
 
 {
     "gitbook": ">=2.0.0",
-    "plugins": ["edit-link","googledocs","mermaid","atoc","github","gitbookcode","chart"],
+    "plugins": ["edit-link","googledocs","atoc","github","gitbookcode","chart","image-captions","mermaid2","highlight2","codeblock"],
     "pluginsConfig": {
             "edit-link": {
                 "base": "https://github.com/Incubaid/dev_process/edit/master/",

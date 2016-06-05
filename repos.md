@@ -1,16 +1,17 @@
 ## different types of repo's (IMPORTANT)
+### repo's inside Product Organization (prodorg)
 
 #### home repo
 
 - is a repo with as name ```home```
-- it is the main repo of an organization
+- it is the main repo of a prodorg
 - it holds 
   - starting point of documentation
   - explains what other repo's are used & what their purpose is
   - holds specifications which are not related to 1 repo
   - holds info like product PRD, ... which are bigger than 1 repo
 - milestones
-  - not used 
+  - 
 - issue types used
   - not used
   
@@ -27,6 +28,40 @@
     - use stories or tasks or tests at this level !!! 
 - bug/feature management
     - all issues reported or feature requests are grouped, it acts like a funnel    
+
+
+#### documentation/gitbook
+
+- ```doc_$name```
+- IMPORTANT
+  - often it makes more sense to leave the documenation inside the product/code repo
+  - when put in code repo put under subdir /doc
+  - advantage to keep it in a code repo is that documentation is lined to the code
+  - the only reason to put it in a separate repo is when the doc is not related to code or related to more than 1 code repo  
+- milestones
+  - groups features & bugs
+- issues can be of type
+    - bug,feature,question
+
+#### www = websites
+
+- ```www_$name```
+- the code for a website
+- when code changes normally a website is updated & hosted automatically
+- issues can be of type
+    - bug,feature,question
+
+#### ays templates (At Your Service)
+
+- an AYS repo starts with ays_ ...
+  - ```ays_$customer_$envname``` e.g. ays_gig_gentTest1
+- milestones
+  - to group feature requests & bugs
+- issues can be of type
+    - bug,feature,question
+
+
+### repo's inside Project Organization (projorg)
 
 #### organization related
 
@@ -57,29 +92,6 @@
   - freely chosen per project
 - do not create specific ```proj_$customer_$projname``` unless if subproject is large enough
 
-
-
-#### documentation/gitbook
-
-- ```doc_$name```
-- IMPORTANT
-  - often it makes more sense to leave the documenation inside the product/code repo
-  - when put in code repo put under subdir /doc
-  - advantage to keep it in a code repo is that documentation is lined to the code
-  - the only reason to put it in a separate repo is when the doc is not related to code or related to more than 1 code repo  
-- milestones
-  - groups features & bugs
-- issues can be of type
-    - bug,feature,question
-
-#### www = websites
-
-- ```www_$name```
-- the code for a website
-- when code changes normally a website is updated & hosted automatically
-- issues can be of type
-    - bug,feature,question
-
 #### cockpit
 
 - ```cockpit_$customer_$name``` e.g. ```infra_gig_gentTest1```
@@ -102,13 +114,5 @@
 - issues can be of type
     - story, task, bug, feature, question, monitor, test 
 
-#### ays templates (At Your Service)
-
-- an AYS repo starts with ays_ ...
-  - ```ays_$customer_$envname``` e.g. ays_gig_gentTest1
-- milestones
-  - to group feature requests & bugs
-- issues can be of type
-    - bug,feature,question
 
 
