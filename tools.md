@@ -132,11 +132,5 @@ graph TD;
 
 - [plugin](https://plugins.gitbook.com/plugin/include-codeblock)
 
-```
-All: [import, hello-world.js](../src/hello-world.js)
-1-2: [import:1-2, hello-world.js](../src/hello-world.js)
-2-3: [import:2-3, hello-world.js](../src/hello-world.js)
-2>=: [import:2-, hello-world.js](../src/hello-world.js)
-<=3: [import:-3, hello-world.js](../src/hello-world.js)
-```
+
 
