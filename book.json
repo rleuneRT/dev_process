@@ -4,7 +4,8 @@
         "edit-link",
         "image-captions",
         "mermaid2",
-        "codeblock"
+        "codeblock",
+        "googledocs"
     ],
     "pluginsConfig": {}
 }
