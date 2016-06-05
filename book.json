@@ -3,7 +3,8 @@
     "plugins": [
         "edit-link",
         "image-captions",
-        "mermaid2"
+        "mermaid2",
+        "codeblock"
     ],
     "pluginsConfig": {}
 }
