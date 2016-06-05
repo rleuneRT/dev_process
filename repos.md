@@ -42,12 +42,12 @@ DO NOT USE THIS REPO FOR
 
 - ```doc_$name```
 - IMPORTANT
-  - often it makes more sense to leave the documenation inside the product/code repo
+  - often it makes more sense to leave the documentation inside the product/code repo
   - when put in code repo put under subdir /doc
-  - advantage to keep it in a code repo is that documentation is lined to the code
+  - advantage to keep it in a code repo is that documentation is linked to the code
   - the only reason to put it in a separate repo is when the doc is not related to code or related to more than 1 code repo  
 - milestones
-  - groups features & bugs
+  - groups features & bugs to do with the documentation
 - issues can be of type
     - bug,feature,question
 
