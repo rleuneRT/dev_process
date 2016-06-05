@@ -1,22 +1,39 @@
 ## roles
 
-- these roles need to be documented in the home repo's o
-- who owns what
+- these roles need to be documented in the relevant proj or org repo's of a PROJORG (github project organization)
+- its basically describing who owns which role in the organization
 
-### stakeholder
 
-- who has something to loose or win by the acceptance/progress on a story card
-- stakeholder main role is to be part of stakeholder meeting
+### product/project owner
 
-### product owner
-
-- clearly define what is the product
-- link to the repo's which make up the product
+- clearly define what is the product or project
+- link to the repo's which make up the product/project
 - the product owner is responsible for
-  - roadmap
+  - roadmap/deadlines
   - generic PRD (as reflected & linked to from story cards)
   - verify all stories which are related to his/her assigned product
-  - communication to all stakeholders  
+  - work with all story owners to make sure milestone will be achieved !!!
+  -   - communication to all stakeholders  
+  - guarantees proper format of all stories owned by story owners (guarantees quality, priorities, communication around it, ...)
+  - organize milestone meetings (see [Meetings](meetings.md)) 
+- there is only 1 owner per milestone (so we can have more in the repo)
+
+#### product related
+
+- e.g. product manager owns X products
+- in e.g. org_development & org_research stories & tasks are defined
+- milestones used there define deadlines linked to time which need to be achieved by company
+- there is never more than 3 milestones (2 next releases & a generic one called roadmap)
+- the product owner will make sure that the stories & milestones are properly defined
+- in the relevant repo(s) these roles are defined e.g. in home page of org_development, make sure all knows where to find these pages.
+
+#### project related
+
+- e.g. project manager owns delivery of a project to a customer
+- in e.g. proj_mauritius_1 stories & tasks are defined
+- milestones are set & team defined in home page of this project
+- there is only 1 owner per project
+
 
 ### story owner
 
@@ -42,15 +59,11 @@
   - eliminate all blockers which people might experience
 - scrumleads are often also story owners (of X nr of stories)
 
-### milestone owner
-- this is like a VP of R&D but responsible for 1 milestones
-- milestone owner needs to
-  - work with all story owners to make sure milestone will be achieved !!!
-  - communicate to stakeholders when relevant
-  - organize milestone meetings (see [Meetings](meetings.md))
-  - guarantees proper format of all stories owned by story owners (guarantees quality, priorities, communication around it, ...)
 
+### stakeholder
 
+- who has something to loose or win by the acceptance/progress on a story card
+- stakeholder main role is to be part of stakeholder meeting
 
 
 
