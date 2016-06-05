@@ -24,3 +24,7 @@ Please use the issue tracker to ask questions, post feedback, ask for improvemen
 
 - [online version](https://gig.gitbooks.io/agile/content/) (html)
 - [pdf version](https://www.gitbook.com/download/pdf/book/gig/agile)
+ 
+## TOC
+
+<!-- toc -->
