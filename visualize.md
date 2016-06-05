@@ -40,3 +40,6 @@ We use 5 columns to categorize our works.
 - **VALIDATION**: Being tested
 - **CLOSED**: Done
 
+### Example
+
+![](Screen Shot 2016-06-05 at 8.53.31 AM.png)
