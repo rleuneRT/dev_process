@@ -55,7 +55,12 @@
 | closed | nothing to do, 100% done | all |
 
 
-https://docs.google.com/spreadsheets/d/1o7F9-rZlsJXIaIXjP9hQyyivUMZ7Kxo9DT9eLCib34I/edit#gid=0
+{% mermaid %}
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+{% endmermaid %}
 
-[test](https://docs.google.com/spreadsheets/d/1o7F9-rZlsJXIaIXjP9hQyyivUMZ7Kxo9DT9eLCib34I/edit#gid=0)
 
