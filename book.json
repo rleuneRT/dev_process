@@ -2,7 +2,7 @@
 
 {
     "gitbook": ">=2.0.0",
-    "plugins": ["edit-link","googledocs","mermaid","atoc"],
+    "plugins": ["edit-link","googledocs","mermaid","atoc","github","gitbookcode","chart"],
     "pluginsConfig": {
             "edit-link": {
                 "base": "https://github.com/Incubaid/dev_process/edit/master/",
@@ -21,6 +21,9 @@
         },
     "chart": {
             "type": "highcharts"
+        },
+    "github": {
+            "url": "https://github.com/Incubaid/dev_process"
         }
     }
 }
