@@ -5,6 +5,7 @@ We are still struggling how to best use milestones, all feedback very welcome.
 #### In Github Product Organization (prodorg)
 
 - release nr or name of a product e.g. JS8.1  (from jumpscale 8.1)
+  - used to organize work around a product release !!! 
 - can be used in home & code repo's
 - if different components make up a product & version is per product then this milestone name needs to be the same over the relevant repo's !!!
 - this milestone is used to group FR & BUGS
