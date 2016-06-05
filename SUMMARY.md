@@ -4,7 +4,7 @@
    * [Terminology](terminology.md)
    * [Kanban](kanbanoption.md)
 * [The Ideas](Ideas.md)
-   * [Github Integration](github_integration.md)
+   * [Github](github_integration.md)
    * [Repos](repos.md)
    * [Bugs & Feature request funnel](funnel.md)
    * [Stories are the start of all](stories.md)
