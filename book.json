@@ -9,7 +9,8 @@
         "highlight2",
         "github",
         "include",
-        "include-codeblock"
+        "include-codeblock",
+        "injection"
     ],
     "pluginsConfig": {}
 }
