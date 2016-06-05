@@ -15,7 +15,7 @@
    * [Coding Cycle Important!](CodingCycle.md)
    * [Telegram](telegram.md)
    * [Tickets/Tasks](tickets_tasks.md)
-   * Repos
+   * [Repos](repos.md)
 * [Agile Principles](agileprinciples.md)
    * [80% rule](agileprinciples/Pareto.md)
    * [Change Is Not Bad](agileprinciples/ChangeIsNotBad.md)

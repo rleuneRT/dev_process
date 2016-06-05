@@ -21,7 +21,6 @@
 
 
 
-### how to use github (or any other git mgmt system)
 
 ### different types of repo's (IMPORTANT)
 
