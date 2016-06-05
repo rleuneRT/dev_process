@@ -27,7 +27,25 @@ http://spreadsheets.google.com/ccc?key={key}&hl=en
 
 - [plugin](https://plugins.gitbook.com/plugin/mermaid2)
 - [info about mermaid](http://knsv.github.io/mermaid/)
-- 
+
+```
+{% mermaid %}
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+{% endmermaid %}
+```
+
+{% mermaid %}
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+{% endmermaid %}
+
 
 #### chart
 
