@@ -5,6 +5,7 @@
    * [Kanban](kanbanoption.md)
 * [The Ideas](Ideas.md)
    * [Github](github_integration.md)
+   * Github Accounts
    * [Github Repos](repos.md)
    * [Bugs & Feature request funnel](funnel.md)
    * [Stories are the start of all](stories.md)
@@ -16,7 +17,6 @@
    * [Coding Cycle Important!](CodingCycle.md)
    * [Telegram](telegram.md)
    * [Tickets/Tasks](tickets_tasks.md)
-   * Github Accounts
 * [Agile Principles](agileprinciples.md)
    * [80% rule](agileprinciples/Pareto.md)
    * [Change Is Not Bad](agileprinciples/ChangeIsNotBad.md)
