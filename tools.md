@@ -165,14 +165,9 @@ graph TD;
 
 - [plugin](https://plugins.gitbook.com/plugin/include-codeblock)
 
-
-
 #### include
 
+to include other markdown docs, ideal to avoid repetition
+
 - [plugin](https://plugins.gitbook.com/plugin/include)
-
-```
-!INCLUDE "file.md"
-```
-
 
