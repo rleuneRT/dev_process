@@ -1,7 +1,8 @@
 {
     "gitbook": ">=2.0.0",
     "plugins": [
-        "edit-link"
+        "edit-link",
+        "image-captions"
     ],
     "pluginsConfig": {}
 }
