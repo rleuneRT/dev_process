@@ -18,7 +18,7 @@
    * [Telegram](telegram.md)
    * [Tickets/Tasks](tickets_tasks.md)
    * [0-Bugs](0-bugs.md)
-   * Github Milestones
+   * [Github Milestones](github_milestones.md)
 * [Agile Principles](agileprinciples.md)
    * [80% rule](agileprinciples/Pareto.md)
    * [Change Is Not Bad](agileprinciples/ChangeIsNotBad.md)
