@@ -2,7 +2,7 @@
 
 {
     "gitbook": ">=2.0.0",
-    "plugins": ["edit-link","googledocs"],
+    "plugins": ["edit-link","googledocs","mermaid"],
     "pluginsConfig": {
             "edit-link": {
                 "base": "https://github.com/incubaid/dev_process/",
