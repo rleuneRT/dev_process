@@ -5,7 +5,7 @@
     "plugins": ["edit-link","googledocs","mermaid"],
     "pluginsConfig": {
             "edit-link": {
-                "base": "https://github.com/incubaid/dev_process/",
+                "base": "https://github.com/Incubaid/dev_process/edit/master/",
                 "label": "Edit This Page"
             },
     "googledocs": {
