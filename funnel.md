@@ -17,10 +17,15 @@ OUT: STORIES
 
 ### DO NOT
 
-- plan work directly on FR's or Issues, this result in very bad planning
+- plan work directly on FR's or BUGs, this result in very bad planning
 
 ### WHY
 
 - This forces product owners to think about organizing work & priorities
 
+### how to automate task creation
+
+- if you put $storycardname: at beginning of title of issue then this bug/fr will become a task underneath the story
+- this only works if $storycardname is unique (which has to be for active stories)
+- this is done by the incubaid development process tools
 
