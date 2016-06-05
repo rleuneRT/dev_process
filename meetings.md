@@ -2,7 +2,11 @@
 
 ### Stakeholders meeting
 
-- at any point in time there are X milestone relevant for a company
+- Someone who owns a milestone can call for a stakeholders meeting when
+  - there are risks on delay
+  - he/she feels communication between stakeholders is required to meet the deadline
+  - update progress towards the deadline
+- at any point in time there are X milestones relevant for a company
 - all relevant milestone owners will be organizing this meeting
   - there are very few milestone owners, normally only 1 per company 
 - who
@@ -12,21 +16,8 @@
   - all product owners related to the story cards
 - when
   - anytime when company priorities or deadlines need to be discussed
-- the milestone repo will be used as main source of information
-- each milestone repo as a corresponding waffle.io kanboard representation 
+- use waffle.io kanboard representation to see prio's
 
-
-### milestone meeting
-
-- when milestone is prepared by milestone owner, product owner, story owners, ...
-- present milestone & related story cards to everyone involved in the organization
-- this only happens when stakeholder meeting was successful & stories are in good state
-- goal
-  - communicate to organization what needs to happen by when and why
-- when
-  - 1-2 times a month
-  - just an informal zoom meeting will do, just to make sure all understand what is happening
-- when timing is missed or it becomes critical a milestones meeting can be hold to re-explain the priorities.
 
 ### demo meeting
 
