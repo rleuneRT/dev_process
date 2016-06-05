@@ -18,6 +18,9 @@
      "atoc": {
             "addClass": true,
             "className": "atoc"
+        },
+    "chart": {
+            "type": "highcharts"
         }
     }
 }
