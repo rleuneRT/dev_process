@@ -4,15 +4,15 @@
 
 We define 2 types of organizations
 
-### Product github organization (prodorg)
+### Product GitHub organization (prodorg)
 
-- Repo's's inside which to develop a product
+- Groups repositories related to the development of a product
 - Typically code repositories or the home repository 
 
  
-### Project github organization (projorg)
-- repo's inside which to manage projects or customers or sales
-- github is an amazing tool to store all kinds of processes
-- as you can see in the section about repo's we use this for a lot of purposes.
+### Project GitHub organization (projorg)
+- Groups repositoris related to the management of projects, customers or sales
+- GitHub is an amazing tool to store all kinds of processes, next to just code
+- As you can see in the section about repo's we use this for a lot of purposes
 - THERE IS NO CODE IN PROJORG
 

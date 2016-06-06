@@ -1,28 +1,27 @@
-## github integration
+## GitHub Integration
 
-- git/github is a most amazing tool to track changes and can be used in many more ways than people deem possible.
-- We suggest using github for
-  - specs
-  - documentation
-  - planning work (stories in home repo, see [stories](stories.md))
-  - tracking of bugs
-  - tracking of feature requests
-  - of course all coding work using pull requests as tool to track changes
-  - tickets from customers (*)
-- why
-  - its important that all change is being tracked and people get visibility on everything which happened and is going to happen
+Git/GitHub is a most amazing tool to track changes and can be used in many more ways than people deem possible.
 
-
-### requirements
-
-- if security is important to you make sure everyone uses 2-factor authentication
-- if possible use clean login names on github, many people use funny names which is nice but makes it hard for people to remember
-  - our suggested login names are  $first7lettersLastName+$firsLetterFirstname e.g. Kristof De Spiegeleer becomes *despiegk*
+We suggest using GitHub for:
+  - Specs
+  - Documentation
+  - Planning work (stories in home repo, see [stories](stories.md))
+  - Tracking of bugs
+  - Tracking of feature requests
+  - And of course all coding work using pull requests as a tool to track changes
+  - Tickets from customers (*)
+- Why
+  - Its important that all change is being tracked and people get visibility on everything which happened and is going to happen
 
 
+### Requirements
+
+- If security is important to you make sure everyone uses 2-factor authentication
+- If possible use clean login names on GitHub, many people use funny names which is nice but makes it hard for people to remember
+  - Our suggested login names are  $first7lettersLastName+$firsLetterFirstname e.g. Kristof De Spiegeleer becomes *despiegk*
 
 
-### terminology git related
+### Terminology Git related
 
 #### Branch
 
