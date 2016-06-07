@@ -7,6 +7,8 @@
    * [GitHub Intro](github_integration.md)
    * [GitHub Organizations](github_accounts.md)
    * [GitHub Repos](repos.md)
+     * [product organization repo's](prodorg_repos.md)
+     * [project organization repo's](projorg_repos.md)
    * [GitHub Milestones](github_milestones.md)
    * [Bugs & Feature Request Funnel](funnel.md)
    * [Stories are the Start of All](stories.md)
