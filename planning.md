@@ -1,91 +1,91 @@
-## planning
+## Planning
 
-This section describes how to plan work:
+This section describes how to plan work related to 
+- Products
+- Project (todo)
 
-### product related
+### Product related
 
-#### step 0: prepare
+#### Step 0: Prepare
 
-- per company there is an organization (on github) = prodorg
-- per group of products there is a projorg on github
-- make sure all repositories are prepared
-  - use our tools to set the labels, ... 
-- make sure all people have access
+- Per company there is an organization on GitHub = prodorg
+- Per group of products there is a projorg on GitHub
+- Make sure all repositories are prepared
+  - Use our tools to set the labels, ... 
+- Make sure all people have access
 
-#### step 1: roadmap / strategic planning
 
-- in home repo
-  - Readme.md  (```$homerepo/Readme.md```)
-    - link to docs mentioned below 
-  - create terminology doc  (```$homerepo/terminology.md```)
-    - define all relevant terms to do with your products 
-  - create components doc  (```$homerepo/components.md```)
-    - define the components which make up the product
-    - what do these components do
-    - link to relevant code repo's
-  - create roadmap
-    - see [Roadmap](Roadmap.md) section 
+#### Step 1: Roadmap / strategic planning
 
-- in org_development or org_research
-  - define roles
-  - define milestones (time based!)
-  - explain why the milestones
-  - define owners of the milestones
+- In home repository
+  - Readme.md (```$homerepo/Readme.md```)
+    - Link to docs mentioned below 
+  - Create terminology document (```$homerepo/terminology.md```)
+    - Define all relevant terms related to your products 
+  - Create components document (```$homerepo/components.md```)
+    - Define the components which make up the product
+    - What do these components do
+    - Link to relevant code repo's
+  - Create roadmap
+    - See [Roadmap](Roadmap.md) section 
 
-- in proj_...
-  -  define owner (only 1 role = project owner)
-  - define milestones (time based!)
-  - explain why the milestones
-  - define team
+- In org_development or org_research
+  - Define roles
+  - Define milestones (time based!)
+  - Explain why the milestones
+  - Define owners of the milestones
 
-- telegram group (optional)
-  - create telegram group with same name as repo prepended with short company name e.g. gig_org_development
-  - make sure right people have access to it   
-  - all relevant stakeholders & story card owners
+- In proj_...
+  - Define owner (only 1 role = project owner)
+  - Define milestones (time based!)
+  - Explain why the milestones
+  - Define team
+
+- Telegram group (optional)
+  - Create telegram group with same name as repo prepended with short company name e.g. gig_org_development
+  - Make sure right people have access to it   
+  - All relevant stakeholders & story card owners
   
 
-#### step 2: story card preparation
+#### Step 2: Story card preparation
 
-- is an ongoing process
-- create all story cards relevant for 1 or more milestones
-    - put the story cards in the right milestones !!! 
-- choose the story card owners wisely
-- use telegram ```$shortcompanyname_milestone_$name```
-
-#### step 3: stakeholder meeting (see [meetings doc](meetings.md))
-
-- call stakeholder meeting to discuss milestone(s)
-- use telegram ```$shortcompanyname_milestone_$name```
-- when approved, announce over telegram
-- when not approved do more of these meetings, go back to step 2 when required
-
-#### step 4: milestone meeting (see [meetings doc](meetings.md))
-
-- present milestone & related story cards to everyone involved in the relevant organization
-- this is the official start of getting this milestone done
-- use telegram ```$shortcompanyname_milestone_$name```
-
-#### step 5: story group meetings (see [meetings doc](meetings.md))
-
-- the story owners organize meetings to discuss progress
-- happens every day, needs to be very short < 15 min
-- use telegram ```$shortcompanyname_milestone_$name```
-- use ```gig_story_$shortStoryName``` to communicate specifically about 1 story when this becomes relevant (is optional)
-
-#### step 6: demo meeting (see [meetings doc](meetings.md))
-
-- give demo's about what has been accomplished
-- use telegram ```$shortcompanyname_milestone_$name```
-
-#### step 7: milestone acceptance meeting (see [meetings doc](meetings.md))
-
-- discuss how the milestone went, learn for future
-- use telegram ```$shortcompanyname_milestone_$name```
+- Is an ongoing process
+- Create all story cards relevant for 1 or more milestones
+    - Put the story cards in the right milestones! 
+- Choose the story card owners wisely
+- Use Telegram: ```$shortcompanyname_milestone_$name```
 
 
+#### Step 3: Stakeholder meeting (see [meetings doc](meetings.md))
+
+- Call stakeholder meeting to discuss milestone(s)
+- Use Telegram: ```$shortcompanyname_milestone_$name```
+- When approved, announce over Telegram
+- When not approved do more of these meetings, go back to step 2 when required
 
 
+#### Step 4: Milestone meeting (see [meetings doc](meetings.md))
+
+- Present milestone and related story cards to everyone involved in the relevant organization
+- This is the official start of getting this milestone done
+- Use Telegram: ```$shortcompanyname_milestone_$name```
 
 
+#### Step 5: Story group meetings (see [meetings doc](meetings.md))
+
+- The story owners organize meetings to discuss progress
+- Happens every day, needs to be very short < 15 min
+- Use Telegram: ```$shortcompanyname_milestone_$name```
+- Use ```gig_story_$shortStoryName``` to communicate specifically about 1 story when this becomes relevant (is optional)
 
 
+#### Step 6: demo meeting (see [meetings doc](meetings.md))
+
+- Give demo's about what has been accomplished
+- Use telegram: ```$shortcompanyname_milestone_$name```
+
+
+#### Step 7: Milestone acceptance meeting (see [meetings doc](meetings.md))
+
+- Discuss how the milestone went, learn for future
+- Use Telegram: ```$shortcompanyname_milestone_$name```
