@@ -4,7 +4,7 @@ Principle how to sort through bugs and keep the process as light as possible.
 
 ### [Blog article from vmware Israel team](http://galzellermayer.blogspot.ae/2013/05/0-bugs-policy.html)
 
-**blog from development team at vmware Israel**
+**Blog from development team at VMware Israel**
 (small mods to fit in our process)
 
 How many bugs do you manage? 50? 200? 2000?
@@ -19,7 +19,7 @@ I spend half an hour once a month. And I never see the same bug more than once.
 
 Often, we wonder how should we handle bugs when working in scrum/agile?
 
-The answer is 0 bugs policy. It is based on our experience in several of the scrum teams in VMware Israel.
+The answer is 0 bugs policy. It is based on our experience in several of the Scrum teams in VMware Israel.
 
 Other ways we tried failed, with 0 bugs policy it just works.
 
@@ -66,12 +66,12 @@ spend a lot of time understanding the bug and reproduce it.
 
 OK. So we have agreed that the 0 bugs policy is in fact GREAT!
 
-### our conclusions
+### Our conclusions
 
 - Each product/code account has milestones defined = product versions
 - Per code repo there are normally not more than 3 milestones
-  - version nr 1 (nearest to today)
-  - version nr 2 (next release)
-  - roadmap (always use this name !!!)
-- **bugs are NEVER but on roadmap**, following this page they are in version 1 or 2 after now.
-- FR can be put on roadmap when not in one of 2 next releases, but no specific timing yet
+  - Version number 1 (nearest to today)
+  - Version number 2 (next release)
+  - Roadmap (always use this name!)
+- **Bugs are NEVER put on roadmap**, following this page they are in version 1 or 2 after now.
+- FR can be put on roadmap when not in one of 2 next releases, but no specific timing yet.

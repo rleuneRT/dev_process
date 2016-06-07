@@ -1,109 +1,109 @@
-## usage of telegram
+## Usage of telegram
 
-- telegram (and later rogerthat) is our main tool to let communication flow.
-- in this doc we describe the main telegram groups & how we use them
+- Telegram (and later Rogerthat) is our main tool to let communication flow
+- In this document we describe the main Telegram groups and how we use them
 - IMPORTANT: PEOPLE NEED TO USE 2FACTOR AUTHENTICATION !!!!
 
-### support
 
-- ```$shortcompanyname_support``` e.g. ```gig_support```
-- used for
-    - any customer isue which deserves attention from more than 1 person
-    - for escalations
-    - for information sharing
-    - for planning events
-- who is on it
-    - everyone delivering support
-    - everyone who wants to know what is going on
+### Support
+
+- ```$shortcompanyname_support```, e.g. ```gig_support```
+- Used for
+    - Any customer isue which deserves attention from more than 1 person
+    - Escalations
+    - Information sharing
+    - Planning events
+- Who is on it
+    - Everyone delivering support
+    - Everyone who wants to know what is going on
 - IMPORTANT
-    - on duty support guys
-        - NEED to announce their duty ON & OFF event on this group (if less than 10 people active, for larger orgs this will not be practical). This will allow people to see how is online & active.
-        - NEED to use & actively look at this group
+    - On duty support guys
+        - Need to announce their duty ON & OFF event on this group (if less than 10 people active, for larger orgs this will not be practical). This will allow people to see how is online & active.
+        - Need to use and actively look at this group
 
-### organization
+
+### Organization
 
 - ```$shortcompanyname_org_$name```
-- example groups
+- Example groups:
     - e.g. ```gig_org_marketing```
     - e.g. ```gig_org_products```
     - e.g. ```gig_org_sales```
     - e.g. ```gig_org_internalit```
     - e.g. ```gig_org_development```
     - e.g. ```gig_org_research```
-    - e.g. ```gig_org_proddelivery```  : e.g. hardware & shipments of projects
-    - e.g. ```gig_org_qa```         : quality assurance in broad sense
-    - e.g. ```gig_org_operations``` : team which keeps our systems up & running in broad sense
+    - e.g. ```gig_org_proddelivery```: e.g. hardware & shipments of projects
+    - e.g. ```gig_org_qa```: quality assurance in broad sense
+    - e.g. ```gig_org_operations``: team which keeps our systems up & running in broad sense
     - e.g. ```gig_org_admin```
     - e.g. ```gig_org_finance```
     - e.g. ```gig_org_legal```
     - e.g. ```gig_org_funding```
 
-    - normally the name used is the same as the name of the git repo
-- used for
-    - communication around the topic
-    - planning, info changes, ...
-- who is on it
-    - everyone which is working on the topic or can needs to know about it
+    - Normally the name used is the same as the name of the git repo
+- Used for
+    - Communication around the topic
+    - Planning, info changes, ...
+- Who is on it
+    - Everyone which is working on the topic or can needs to know about it
 
 
-### project
+### Project
 
-    - e.g. ```gig_proj_mauritius```
-    - normally the name used is the same as the name of the git repo
-- used for
-    - communication around such a project
-    - planning, info changes, ...
-- who is on it
-    - everyone which is working on this project 
+    - E.g. ```gig_proj_mauritius```
+    - Normally the name used is the same as the name of the GitHub repo
+- Used for
+    - Communication around such a project
+    - Planning, info changes, ...
+- Who is on it
+    - Everyone which is working on this project 
 
-### milestone 
 
-- ```$shortcompanyname_milestone_$name``` e.g. ```gig_milestone_ovc210```
-- defines a milestone for the company an all main communication to do with this
-- used for
-    - announcing meetings e.g. stakeholder meeting, story meeting if change in time, ...
-    - important events
-    - inform about important information changes (e.g. stories, specs, roadmap, ...)
-    - planning events e.g. story meeting is now different time per day
-    - important bugs people should be aware about
-- who is on it
-    - everyone who has something to win or loose with this milestone internal to our company 
+### Milestone 
+
+- ```$shortcompanyname_milestone_$name```, e.g. ```gig_milestone_ovc210```
+- Used for
+  - Defining a milestone, and all related communication
+  - Announcing meetings, e.g. stakeholder meeting, story meeting, if change in time, ...
+  - Inform about important information changes, e.g. stories, specs, roadmap, ...
+  - Important bugs people should be aware about
+- Who is on it
+    - Everyone who has something to win or loose with this milestone, internal to our company 
 - THIS IS MAINLY USED FOR PRODUCE RELATED RELEASES
 
 
-
-
-### cockpit
+### Cockpit
 
 - ```$shortcompanyname_cockpit_$name```
-- in line with name of cockpit git repo
-- used for
-    - all communication around 1 IT environment (can be for 1 customer or internal, ...)
-- is also used by cockpit: ays robot
-    - means we can see on this group if there are issues with the environment
-    - or we can give instructions to the ays robot to do something
-- e.g. is done per test environment
-    - can see if someone is doing a test and what the result is
-    - can see monitoring state
-    - can request changes
-- who can use it
-    - people with right security clearance !!! can be partners & internal
+- In line with name of Cockpit GitHub repo
+- Used for
+    - all communicationa around 1 IT environment (can be for 1 customer or internal, ...)
+- Also used by Cockpit: AYS Robot
+    - Means we can see on this group if there are issues with the environment
+    - Or we can give instructions to the AYS Robot to get things done
+- E.g. following is done per test environment
+    - Can see if someone is doing a test and what the result is
+    - Can see monitoring state
+    - Can request changes
+- Who can use it
+    - People with right security clearance, can be partners & internal
 
 
-### code
+### Code
 
-- e.g. ```code_jumpscale_go-raml```
-- normally the name used is the same as the name of the git repo
-- used for
-    - discussion around a code repository
-    - comments can also be given in pull request and such but sometimes a telegram disccusion is more usefull
-- who is on it
-    - everyone which is working on this repository 
+- E.g. ```code_jumpscale_go-raml```
+- Normally the name used is the same as the name of the GitHub repo
+- Used for
+    - Discussion around a code repository
+    - Comments can also be given in pull request and such but sometimes a telegram disccusion is more usefull
+- Who is on it
+    - Everyone which is working on this repository 
+
 
 ### BAM
 
-- e.g. gig_BAM
-- is used for communication around the BAM meeting
-- also used to report blocking issues, so that they can be assessed more quickly so that people do not need to wait for the next BAM meeting to be unblocked.
-- who is on it
-   - people related to QA & development
+- E.g. gig_BAM
+- Is used for communication around the BAM meeting
+- Also used to report blocking issues, so that they can be assessed more quickly so that people do not need to wait for the next BAM meeting to be unblocked
+- Who is on it
+   - People related to Q&A and development
