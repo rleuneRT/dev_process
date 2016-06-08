@@ -1,12 +1,12 @@
 ## FAQ
 
-### what if FR or BUG spans more than 1 repo
+### What if FR or BUG spans more than 1 repo
 
-#### for BUG
+#### For BUG
 - Suggest to report the issue in the repo which is closest to the issue and ignore the fact that another repo is also involved.
 - All will make sense later because this BUG/FR will be linked to a story later.
 
-#### for FR (Feature request)
+#### For FR (Feature request)
 
 - The high level FR can be put on e.g. home repo level. This is really more like defining your roadmap.
 
@@ -16,7 +16,7 @@
 
 - This is useful if you want to visualize your roadmap on your product account & keep stories internal.
 
-### customers wanna report a bug, how to do this?
+### Customers wanna report a bug, how to do this?
 
 - If the customer (or someone from customer organization) is a contributor on the required repo, they can just file the bugs.
 - It the customer is more like an end customer being less involved we suggest to use a ticketing system. At Incubaid we have created some tools to be able to use our Github also as ticketing system but otherwise there are many of them. The support person in your organization can then create the bug report in the appropriate repo and link back from the ticketing system.

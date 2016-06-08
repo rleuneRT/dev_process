@@ -2,7 +2,7 @@
 
 Principle how to sort through bugs and keep the process as light as possible.
 
-### [Blog article from vmware Israel team](http://galzellermayer.blogspot.ae/2013/05/0-bugs-policy.html)
+### [Blog article from VMware Israel team](http://galzellermayer.blogspot.ae/2013/05/0-bugs-policy.html)
 
 **Blog from development team at VMware Israel**
 (small mods to fit in our process)

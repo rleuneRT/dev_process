@@ -79,7 +79,7 @@ This section describes how to plan work related to
 - Use ```gig_story_$shortStoryName``` to communicate specifically about 1 story when this becomes relevant (is optional)
 
 
-#### Step 6: demo meeting (see [meetings doc](meetings.md))
+#### Step 6: Demo meeting (see [meetings doc](meetings.md))
 
 - Give demo's about what has been accomplished
 - Use telegram: ```$shortcompanyname_milestone_$name```
