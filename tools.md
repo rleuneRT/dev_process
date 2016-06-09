@@ -141,6 +141,10 @@ to include other markdown docs, ideal to avoid repetition
 
 - [plugin](https://plugins.gitbook.com/plugin/include)
 
+to use \!\INCLUDE "file.md"
+
+
+
 #### zingchart
 
 docs see
