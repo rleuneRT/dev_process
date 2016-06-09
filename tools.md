@@ -15,7 +15,7 @@ book.json file
 ```json
 {
     "gitbook": ">=2.0.0",
-    "plugins": ["edit-link","googledocs","atoc","github","gitbookcode","chart","image-captions","mermaid2","highlight2","codeblock"],
+    "plugins": ["edit-link","googledocs","atoc","github","gitbookcode","chart","image-captions","mermaid2","highlight2","codeblock","zingchart"],
     "pluginsConfig": {
             "edit-link": {
                 "base": "https://github.com/Incubaid/dev_process/edit/master/",
@@ -140,4 +140,19 @@ graph TD;
 to include other markdown docs, ideal to avoid repetition
 
 - [plugin](https://plugins.gitbook.com/plugin/include)
+
+#### zingchart
+
+docs see
+https://www.zingchart.com/docs/
+
+{% zingchart width=300, height=300 %}
+{
+    "type":"bar",  
+    "series":[  
+        { "values": [35, 42, 67, 89]},
+        { "values": [28, 40, 39, 36]}
+    ]
+}
+{% endzingchart %}
 
