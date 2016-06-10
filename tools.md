@@ -8,6 +8,37 @@
   - specs
 - you can use the amazing gitbook tool to convert the markdown docs to an ebook (see this one)
 
+
+### gitbook editor
+
+- https://www.gitbook.com/editor
+
+### how to use gitbook toolchain locally
+
+```
+npm update -g
+npm install gitbook-cli -g
+npm install gitbook-plugin-mermaid2
+npm install phantom
+gitbook update
+```
+
+to serve local content
+```
+cd $directory_gitbook_md_files
+gitbook install
+gitbook serve
+```
+
+to create a pdf
+```
+```
+
+
+- more info see https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md
+
+
+
 ### plugins to gitbook
 
 book.json file
@@ -63,77 +94,41 @@ http://spreadsheets.google.com/ccc?key={key}&hl=en
 
 #### mermaid
 
+SEEMS NOT TO BE WORKING ON ALL SYSTEMS (e.g. on my OSX I can't get it to work, but on gitbook site it works)
+
 - [plugin](https://plugins.gitbook.com/plugin/mermaid2)
 - [info about mermaid](http://knsv.github.io/mermaid/)
 
 ```
-{% mermaid %}
+\{% mermaid %\}
 graph TD;
   A-->B;
   A-->C;
   B-->D;
   C-->D;
-{% endmermaid %}
+\{% endmermaid %\}
 ```
 
-{% mermaid %}
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-{% endmermaid %}
-
-
-#### chart
-
-```
-{% chart %}
-{
-    // NOT need to specified `bindto` here
-    data: {
-        type: 'bar',
-        columns: [
-            ['data1', 30, 200, 100, 400, 150, 250],
-            ['data2', 50, 20, 10, 40, 15, 25]
-        ],
-        axes: {
-            data2: 'y2'
-        }
-    },
-    axis: {
-        y2: {
-            show: true
-        }
-    }
-}
-{% endchart %}
-```
-
-{% chart %}
-{
-    // NOT need to specified `bindto` here
-    data: {
-        type: 'bar',
-        columns: [
-            ['data1', 30, 200, 100, 400, 150, 250],
-            ['data2', 50, 20, 10, 40, 15, 25]
-        ],
-        axes: {
-            data2: 'y2'
-        }
-    },
-    axis: {
-        y2: {
-            show: true
-        }
-    }
-}
-{% endchart %}
 
 #### include codeblock
 
 - [plugin](https://plugins.gitbook.com/plugin/include-codeblock)
+
+```
+\[import\](fixtures/test.js)
+```
+
+```
+\[import, lang-typescript\]\(hello-world.ts\)
+```
+
+```
+\[import:<start-lineNumber>-<end-lineNumber>\]\(path/to/file\)
+```
+
+dont use the '\' in examples above
+
+
 
 #### include
 
@@ -141,14 +136,29 @@ to include other markdown docs, ideal to avoid repetition
 
 - [plugin](https://plugins.gitbook.com/plugin/include)
 
-to use \!\INCLUDE "file.md"
+```
+\!\INCLUDE "file.md"
+```
 
+dont use the '\' in example above
 
 
 #### zingchart
 
 docs see
 https://www.zingchart.com/docs/
+
+```
+\{% zingchart width=300, height=300 %\}
+{
+    "type":"bar",  
+    "series":[  
+        { "values": [35, 42, 67, 89]},
+        { "values": [28, 40, 39, 36]}
+    ]
+}
+\{% endzingchart %\}
+```
 
 {% zingchart width=300, height=300 %}
 {
@@ -159,4 +169,4 @@ https://www.zingchart.com/docs/
     ]
 }
 {% endzingchart %}
-
+ 
