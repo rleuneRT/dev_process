@@ -37,7 +37,7 @@ Below each of the projorg repositories is discussed.
     - org_finance
     - org_legal
     - org_hr 
-    - org_quality (all Q&A related issues, automation code, performance testing, portal testing and automated tests)
+    - org_quality (all QA related issues, automation code, performance testing, portal testing and automated tests)
 - Milestones
   - Defines a deadline (date) for the project, there can be multiple, but tasks or stories can only belong to one
   - Freely chosen per project
