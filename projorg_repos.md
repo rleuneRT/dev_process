@@ -34,7 +34,7 @@ Below each of the "projorg" repositories is discussed.
 ### Project repositories
 
 - Always named as ```proj_$customer``` or ```proj_$customer_$projname```
-  - Projects relate to customers
+  - Projects related to customers
   - We use this to organize our work related to 1 customer, only useful if customer project is large enough
   - Do not create specific ```proj_$customer_$projname``` unless if subproject is large enough
 - Milestones
